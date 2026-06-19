@@ -58,6 +58,6 @@ web:
 
 # Como Executar o Projeto
 
-.git clone
-.cd nome-do-projeto
-.npm run dev
+git clone
+cd nome-do-projeto
+npm run dev
