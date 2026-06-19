@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Professores</title>
+<link rel="stylesheet" href="/web/css/style.css">
+</head>
+<body>
+
+<div class="container">
+
+
+<aside class="sidebar">
+    <h2>Escola</h2>
+
+    <a class="active" href="login.html">Professores</a>
+    <a href="turma.html">Turmas</a>
+    <a href="atividade.html">Atividades</a>
+</aside>
+
+<main class="content">
+
+    <div class="card">
+
+        <div class="header">
+            <div>
+                <h1>Professores</h1>
+                <p>Gerencie os professores da escola</p>
+            </div>
+        </div>
+
+        <table>
+            <thead>
+                <tr>
+                    <th>ID</th>
+                    <th>Nome</th>
+                    <th>Email</th>
+                    <th>Ações</th>
+                </tr>
+            </thead>
+
+            <tbody id="professoresTable"></tbody>
+
+        </table>
+
+        <br>
+
+        <h3>Novo Professor</h3>
+
+        <input
+            type="text"
+            id="nome"
+            placeholder="Nome do professor"
+        >
+
+        <input
+            type="email"
+            id="email"
+            placeholder="Email"
+        >
+
+        <button
+            class="btn-primary"
+            onclick="cadastrarProfessor()"
+        >
+            Cadastrar Professor
+        </button>
+
+    </div>
+
+</main>
+
+</div>
+
+<script src="/web/script/script.js"></script>
+
+</body>
+</html>

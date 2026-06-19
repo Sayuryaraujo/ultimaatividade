@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Turmas</title>
+
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+
+<div class="container">
+
+    <aside class="sidebar">
+        <h2>Escola</h2>
+
+        <a href="professor.html">Professores</a>
+        <a class="active" href="turma.html">Turmas</a>
+        <a href="atividade.html">Atividades</a>
+        <a href="login.html">Sair</a>
+    </aside>
+
+    <main class="content">
+
+        <div class="card">
+
+            <div class="header">
+                <div>
+                    <h1>Turmas</h1>
+                    <p>Gerencie as turmas da escola</p>
+                </div>
+            </div>
+
+            <table>
+                <thead>
+                    <tr>
+                        <th>ID</th>
+                        <th>Nome</th>
+                        <th>Descrição</th>
+                        <th>Professor</th>
+                        <th>Ações</th>
+                    </tr>
+                </thead>
+
+                <tbody id="turmasTable"></tbody>
+            </table>
+
+            <br>
+
+            <h3>Nova Turma</h3>
+
+            <label>Nome da Turma</label>
+            <input
+                type="text"
+                id="nomeTurma"
+                placeholder="Digite o nome da turma"
+            >
+
+            <label>Descrição</label>
+            <input
+                type="text"
+                id="descricaoTurma"
+                placeholder="Digite a descrição"
+            >
+
+            <label>ID do Professor</label>
+            <input
+                type="number"
+                id="professorId"
+                placeholder="Digite o ID do professor"
+            >
+
+            <button
+                class="btn-primary"
+                onclick="cadastrarTurma()"
+            >
+                Cadastrar Turma
+            </button>
+
+        </div>
+
+    </main>
+
+</div>
+
+<script src="../script/script.js"></script>
+
+</body>
+</html>
