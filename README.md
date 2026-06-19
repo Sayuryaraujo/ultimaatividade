@@ -44,22 +44,19 @@ npm install
 # Estrutura do Projeto
 
 projeto/
-│
-├── api/
-│   ├── controller/
-│   ├── routes/
-│   └── data/
-│
-├── web/
-│   ├── css/
-│   ├── js/
-│   └── html/
-│
-├── prisma/
-│
-├── server.js
-│
-└── package.json
+
+api/
+  controller/
+  routes/
+  data/
+
+ web/
+   css/
+   js/
+   html/
+   prisma/
+   server.js
+   package.json
 
 # Como Executar o Projeto
 
