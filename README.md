@@ -16,7 +16,7 @@ Sistema desenvolvido para gerenciamento de professores, turmas, alunos e ativida
 
 ### Front-end
 
-* HTML5
+* HTML
 * CSS3
 * JavaScript
 
@@ -58,6 +58,6 @@ web:
 
 # Como Executar o Projeto
 
-git clone
-cd nome-do-projeto
-npm run dev
+.git clone
+.cd nome-do-projeto
+.npm run dev
