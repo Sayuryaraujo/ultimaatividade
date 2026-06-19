@@ -61,3 +61,11 @@ web:
 git clone
 cd nome-do-projeto
 npm run dev
+
+# Funcionalidades
+
+listar: turma,professor e atividade
+editar: turma,professor e atividade
+buscar: turma,professor e atividade
+excluir: turma,professor e atividade
+cadastrar: turma,professor e atividade
