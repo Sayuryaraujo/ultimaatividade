@@ -6,7 +6,7 @@ Sistema desenvolvido para gerenciamento de professores, turmas, alunos e ativida
 
 # Tecnologias Utilizadas
 
-* Visual Studio Code (VS Code)
+* Visual Studio Code 
 
 ### Back-end
 
@@ -43,14 +43,12 @@ npm install
 
 # Estrutura do Projeto
 
-projeto/
-
-api/
+api:
   controller/
   routes/
   data/
 
- web/
+web:
    css/
    js/
    html/
@@ -63,6 +61,3 @@ api/
 git clone
 cd nome-do-projeto
 npm run dev
-
-
-Projeto desenvolvido como atividade acadêmica do curso de Desenvolvimento de Sistemas.
